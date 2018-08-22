@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chip/linked-list-NChipanaUTEC/iterator.h
+node.h
+/home/chip/linked-list-NChipanaUTEC/node.h
+
+/home/chip/linked-list-NChipanaUTEC/list.h
+iostream
+-
+node.h
+/home/chip/linked-list-NChipanaUTEC/node.h
+iterator.h
+/home/chip/linked-list-NChipanaUTEC/iterator.h
+
+/home/chip/linked-list-NChipanaUTEC/main.cpp
+iostream
+-
+list.h
+/home/chip/linked-list-NChipanaUTEC/list.h
+node.h
+/home/chip/linked-list-NChipanaUTEC/node.h
+iterator.h
+/home/chip/linked-list-NChipanaUTEC/iterator.h
+
+/home/chip/linked-list-NChipanaUTEC/node.h
+
