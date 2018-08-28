@@ -20,9 +20,8 @@ class List {
             nodes = 0;
         }
         T front() {
-            if (nodes == 0) {
+            if (nodes == 0)
                 cout << "Lista Vacia" << endl;
-            }
             else
                 return head -> data;
         }
@@ -91,7 +90,6 @@ class List {
                 temp = temp ->next;
             }
             return temp -> data;
-
         }
         void concat(List<T> &other){
 
@@ -115,7 +113,9 @@ class List {
             }
         }
         void print_reverse(){
-
+            if(!head)
+                cout << "Lista Vacía" << endl;
+            head -> printReverse();
         }
         void clear(){
             while (nodes > 0)

@@ -21,6 +21,7 @@ int main() {
     list.print();
     cout << list.back() << endl;
     cout <<  list.size() << endl;
+    list.print_reverse();
 //    cout << endl << list.get(4);
 
     return 0;

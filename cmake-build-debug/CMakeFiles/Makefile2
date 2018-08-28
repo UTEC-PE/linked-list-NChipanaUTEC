@@ -54,10 +54,10 @@ RM = /home/chip/Documentos/CLion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chip/CLionProjects/AlgoritmosListaSimple
+CMAKE_SOURCE_DIR = /home/chip/linked-list-NChipanaUTEC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-debug
+CMAKE_BINARY_DIR = /home/chip/linked-list-NChipanaUTEC/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/AlgoritmosListaSimple.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-de
 CMakeFiles/AlgoritmosListaSimple.dir/all:
 	$(MAKE) -f CMakeFiles/AlgoritmosListaSimple.dir/build.make CMakeFiles/AlgoritmosListaSimple.dir/depend
 	$(MAKE) -f CMakeFiles/AlgoritmosListaSimple.dir/build.make CMakeFiles/AlgoritmosListaSimple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AlgoritmosListaSimple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chip/linked-list-NChipanaUTEC/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AlgoritmosListaSimple"
 .PHONY : CMakeFiles/AlgoritmosListaSimple.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/AlgoritmosListaSimple.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AlgoritmosListaSimple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chip/linked-list-NChipanaUTEC/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AlgoritmosListaSimple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chip/linked-list-NChipanaUTEC/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/AlgoritmosListaSimple.dir/rule
 
 # Convenience name for target.

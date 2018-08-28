@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/chip/CLionProjects/AlgoritmosListaSimple/iterator.h
+/home/chip/linked-list-NChipanaUTEC/iterator.h
 node.h
-/home/chip/CLionProjects/AlgoritmosListaSimple/node.h
+/home/chip/linked-list-NChipanaUTEC/node.h
 
-/home/chip/CLionProjects/AlgoritmosListaSimple/list.h
+/home/chip/linked-list-NChipanaUTEC/list.h
 iostream
 -
 node.h
-/home/chip/CLionProjects/AlgoritmosListaSimple/node.h
+/home/chip/linked-list-NChipanaUTEC/node.h
 iterator.h
-/home/chip/CLionProjects/AlgoritmosListaSimple/iterator.h
+/home/chip/linked-list-NChipanaUTEC/iterator.h
 
-/home/chip/CLionProjects/AlgoritmosListaSimple/main.cpp
+/home/chip/linked-list-NChipanaUTEC/main.cpp
 iostream
 -
 list.h
-/home/chip/CLionProjects/AlgoritmosListaSimple/list.h
+/home/chip/linked-list-NChipanaUTEC/list.h
 iterator.h
-/home/chip/CLionProjects/AlgoritmosListaSimple/iterator.h
+/home/chip/linked-list-NChipanaUTEC/iterator.h
 node.h
-/home/chip/CLionProjects/AlgoritmosListaSimple/node.h
+/home/chip/linked-list-NChipanaUTEC/node.h
 
-/home/chip/CLionProjects/AlgoritmosListaSimple/node.h
+/home/chip/linked-list-NChipanaUTEC/node.h
 

@@ -9,6 +9,12 @@ struct Node {
     void killSelf(){
      delete(this);
     }
+
+    void printReverse(){
+        if(next != NULL)
+            next -> printReverse();
+        std::cout << data << " ";
+    }
 };
 
 #endif
