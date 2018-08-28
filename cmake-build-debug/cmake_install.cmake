@@ -1,4 +1,4 @@
-# Install script for directory: /home/chip/linked-list-NChipanaUTEC
+# Install script for directory: /home/chip/CLionProjects/AlgoritmosListaSimple
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chip/linked-list-NChipanaUTEC/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chip/CLionProjects/AlgoritmosListaSimple/iterator.h
+node.h
+/home/chip/CLionProjects/AlgoritmosListaSimple/node.h
+
+/home/chip/CLionProjects/AlgoritmosListaSimple/list.h
+iostream
+-
+node.h
+/home/chip/CLionProjects/AlgoritmosListaSimple/node.h
+iterator.h
+/home/chip/CLionProjects/AlgoritmosListaSimple/iterator.h
+
+/home/chip/CLionProjects/AlgoritmosListaSimple/main.cpp
+iostream
+-
+list.h
+/home/chip/CLionProjects/AlgoritmosListaSimple/list.h
+iterator.h
+/home/chip/CLionProjects/AlgoritmosListaSimple/iterator.h
+node.h
+/home/chip/CLionProjects/AlgoritmosListaSimple/node.h
+
+/home/chip/CLionProjects/AlgoritmosListaSimple/node.h
+

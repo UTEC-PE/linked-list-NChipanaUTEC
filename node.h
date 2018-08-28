@@ -6,7 +6,9 @@ struct Node {
     T data;
     struct Node* next;
 
-    void killSelf();
+    void killSelf(){
+     delete(this);
+    }
 };
 
 #endif

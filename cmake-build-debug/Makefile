@@ -48,10 +48,10 @@ RM = /home/chip/Documentos/CLion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chip/linked-list-NChipanaUTEC
+CMAKE_SOURCE_DIR = /home/chip/CLionProjects/AlgoritmosListaSimple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chip/linked-list-NChipanaUTEC/cmake-build-debug
+CMAKE_BINARY_DIR = /home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chip/linked-list-NChipanaUTEC/cmake-build-debug/CMakeFiles /home/chip/linked-list-NChipanaUTEC/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-debug/CMakeFiles /home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chip/linked-list-NChipanaUTEC/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chip/CLionProjects/AlgoritmosListaSimple/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named linked-list-NChipanaUTEC
+# Target rules for targets named AlgoritmosListaSimple
 
 # Build rule for target.
-linked-list-NChipanaUTEC: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 linked-list-NChipanaUTEC
-.PHONY : linked-list-NChipanaUTEC
+AlgoritmosListaSimple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AlgoritmosListaSimple
+.PHONY : AlgoritmosListaSimple
 
 # fast build rule for target.
-linked-list-NChipanaUTEC/fast:
-	$(MAKE) -f CMakeFiles/linked-list-NChipanaUTEC.dir/build.make CMakeFiles/linked-list-NChipanaUTEC.dir/build
-.PHONY : linked-list-NChipanaUTEC/fast
+AlgoritmosListaSimple/fast:
+	$(MAKE) -f CMakeFiles/AlgoritmosListaSimple.dir/build.make CMakeFiles/AlgoritmosListaSimple.dir/build
+.PHONY : AlgoritmosListaSimple/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/linked-list-NChipanaUTEC.dir/build.make CMakeFiles/linked-list-NChipanaUTEC.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/AlgoritmosListaSimple.dir/build.make CMakeFiles/AlgoritmosListaSimple.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/linked-list-NChipanaUTEC.dir/build.make CMakeFiles/linked-list-NChipanaUTEC.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/AlgoritmosListaSimple.dir/build.make CMakeFiles/AlgoritmosListaSimple.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/linked-list-NChipanaUTEC.dir/build.make CMakeFiles/linked-list-NChipanaUTEC.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/AlgoritmosListaSimple.dir/build.make CMakeFiles/AlgoritmosListaSimple.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... linked-list-NChipanaUTEC"
+	@echo "... AlgoritmosListaSimple"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
