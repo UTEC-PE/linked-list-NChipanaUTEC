@@ -91,7 +91,7 @@ class List {
             }
             return temp -> data;
         }
-        void concat(List<T> &other){
+        void concat(List<T> &other){ // No Se implementó
 
         }
         bool empty(){
@@ -127,7 +127,7 @@ class List {
         Iterator<T> end(){
 
         }
-        ~List(){}
+        ~List(){} // No se implementó
 };
 
 
